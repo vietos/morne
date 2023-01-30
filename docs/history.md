@@ -1,3 +1,63 @@
+## v2.11.0, 2023-02-XX
+
+### Highlights
+
+* MongoDB Server 6.x Support
+* Embedded Mongo now uses MongoDB 6.0.3
+* Optimized makeLookupFunction by [radekmie](https://github.com/radekmie) [PR](https://github.com/meteor/meteor/pull/12462) 
+* In async wrappers, catch exceptions and reject by [ebroder](https://github.com/ebroder) [PR](https://github.com/meteor/meteor/pull/12469) 
+* Bump Typescript to v4.9.4  by [Firfi](https://github.com/Firfi) [PR](https://github.com/meteor/meteor/pull/12465) 
+* Ensure the meteor.loginServiceConfiguration subscription always becomes ready by [Torgen](https://github.com/Torgen) [PR](https://github.com/meteor/meteor/pull/12480)
+#### Breaking Changes
+
+N/A
+
+####  Internal API changes
+
+N/A
+
+#### Migration Steps
+
+N/A
+
+#### Meteor Version Release
+
+
+* `Command line`:
+  - Corrected typo in vue skeleton
+
+* `npm mongo @4.13.0`:
+  - Updated MongoDB driver to version 4.13.0
+
+* `Minimongo@1.9.2`:
+  - Updated performance of makeLookupFunction
+  - In async wrappers, catch exceptions and reject
+  
+* `mongo@1.16.5`:
+  - In async wrappers, catch exceptions and reject
+
+* `Tracker@1.3.1`:
+  - Added missing withComputation method in types
+
+* `typescript@4.9.4`
+  - Updated typescript to version 4.9.4.
+
+* `@meteorjs/babel@7.18.0-beta.6`
+  - Updated typescript to version 4.9.4.
+
+#### Special thanks to
+
+- [@radekmie](https://github.com/radekmie).
+- [@ebroder](https://github.com/ebroder).
+- [@Firfi](https://github.com/Firfi).
+- [@Torgen](https://github.com/Torgen).
+
+
+
+For making this great framework even better!
+
+
+
 ## v2.10.0, 2023-01-13
 
 ### Highlights
